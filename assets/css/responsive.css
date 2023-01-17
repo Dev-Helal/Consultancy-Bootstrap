@@ -1,0 +1,46 @@
+@media (max-width:992px){
+    .offer-row{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .team-row{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .blog-row{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .ft-row{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .banner-col h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem !important;
+    }
+    .catagory small{
+        font-size: 15px;
+    }
+    .blog-catagory a{
+        font-size: 26px;
+        line-height: 34px;
+    }
+}
+
+/* mobile  */
+@media (max-width: 767px){
+    .offer-row{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .team-row{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blog-row{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ft-row{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sub-header{
+        display: none;
+    }
+}
